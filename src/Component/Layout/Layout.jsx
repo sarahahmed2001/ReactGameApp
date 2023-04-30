@@ -5,7 +5,7 @@ export default function Layout({logOut}) {
   
   return (
     <div>
-          <Navbar/>
+          <Navbar logOut={logOut} />
          <Outlet>         
          </Outlet>
     </div>
