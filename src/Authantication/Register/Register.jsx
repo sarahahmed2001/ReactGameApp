@@ -99,7 +99,7 @@ export default function Register() {
            </div>
            <div className='text-center text-muted cursor-pointer '>
            Already member ? <span className='text-primary'>
-           <Link  className='text-decoration-none' to={"register"}> Log in {'>'}</Link> 
+           <Link  className='text-decoration-none' to={"/"}> Log in {'>'}</Link> 
            </span>
            </div>
        </div>
